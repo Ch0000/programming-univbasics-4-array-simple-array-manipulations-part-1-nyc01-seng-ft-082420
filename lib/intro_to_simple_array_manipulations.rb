@@ -4,6 +4,7 @@ def using_push(array, string)
   array.push(string)
 end
 using_push
+binding.pry
 
 def using_unshift(array, string)
   array = [ "1", "2", "3", "4" ]
